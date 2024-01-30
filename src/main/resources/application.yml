@@ -1,0 +1,14 @@
+server:
+  port: 8086
+  servlet:
+    context-path: /
+    encoding:
+      charset: UTF-8
+      enabled: true
+      force: true
+  security:
+    login-processing-url: /login
+    username-parameter: id
+    password-parameter: pw
+    logout-url: /logout
+
